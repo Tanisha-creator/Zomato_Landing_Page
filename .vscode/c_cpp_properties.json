@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x86",
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "compilerPath": "gcc",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x86",
+      "compilerArgs": [
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "\"code-runner.runInTerminal\":",
+        "true"
+      ]
+    }
+  ],
+  "version": 4
+}
