@@ -5,7 +5,6 @@
   }
   
   /* Global */
-  
   body {
     font-family: "Merriweather", sans-serif;
     background-color: #ebf2ff;
@@ -87,6 +86,7 @@
       #ff512f 100%
     );
   }
+
   .button__primary {
     margin: 10px;
     padding: 0.5rem 1rem;
@@ -378,12 +378,9 @@
       left: 0px;
       position: absolute;
       top: 0px;
-  
       height: 100%;
       width: 100%;
-  
       transform: skewY(-5deg);
-  
       background-image: linear-gradient(
         to right,
         #ff512f 0%,
